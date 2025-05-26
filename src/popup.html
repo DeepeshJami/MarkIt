@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MarkIt</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="icon" type="image/png" href="../assets/icons/icon32.png">
+</head>
+<body>
+  <div class="popup-root">
+    <header class="popup-header">
+      <div class="header-left">
+        <img src="../assets/icons/icon48.png" alt="MarkIt Logo" class="logo">
+        <div class="header-info">
+          <div class="ext-name">MarkIt</div>
+          <div class="page-url" id="pageUrl">example.com/article</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <label class="switch">
+          <input type="checkbox" id="toggleHighlightsSwitch" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search highlights…">
+    </div>
+    <div id="highlightsList" class="highlights-list redesigned">
+      <!-- Highlights will be inserted here -->
+      <div class="empty-state">No highlights on this page</div>
+    </div>
+    <footer class="popup-footer">
+      <div class="footer-left">
+        <button id="settingsBtn" title="Settings" class="footer-btn">⚙️</button>
+        <button id="deleteAll" title="Delete all highlights" class="footer-btn">🗑️</button>
+      </div>
+      <button id="newHighlightBtn" class="new-highlight-btn">+ New Highlight</button>
+      <div class="footer-meta">
+        <span class="shortcut-hint"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd> Highlight text</span>
+        <span class="version">v1.0</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Delete Confirmation Modal -->
+  <div id="deleteConfirmModal" class="modal-overlay" style="display:none;">
+    <div class="modal">
+      <div class="modal-title">Delete All Highlights?</div>
+      <div class="modal-body">This will remove all highlights for this page. This action cannot be undone.</div>
+      <div class="modal-actions">
+        <button id="cancelDeleteBtn" class="modal-btn">Cancel</button>
+        <button id="confirmDeleteBtn" class="modal-btn danger">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="modal-overlay" style="display:none;">
+    <div class="modal settings-modal">
+      <div class="modal-title">Settings</div>
+      <div class="modal-body">
+        <div class="settings-section">
+          <label for="colorPicker" class="settings-label">Highlight Color</label>
+          <input type="color" id="colorPicker" value="#fffbe6" class="settings-color-picker">
+        </div>
+        <hr class="settings-divider">
+        <div class="settings-section">
+          <div class="settings-section-title">Export/Import (Current Page)</div>
+          <div class="settings-btn-row">
+            <button id="exportBtn" class="modal-btn">Export Highlights (JSON)</button>
+            <button id="importBtn" class="modal-btn">Import Highlights</button>
+            <input type="file" id="importInput" accept="application/json" style="display:none;">
+          </div>
+        </div>
+        <hr class="settings-divider">
+        <div class="settings-section">
+          <div class="settings-section-title">Full Export/Import (Sync + Local)</div>
+          <div class="settings-btn-row">
+            <button id="exportAllBtn" class="modal-btn">Export All</button>
+            <button id="importAllBtn" class="modal-btn">Import All</button>
+            <input type="file" id="importAllInput" accept="application/json" style="display:none;" />
+          </div>
+        </div>
+        <hr class="settings-divider">
+        <div class="settings-section settings-info-row">
+          <span id="syncInfo">Sync: Enabled</span>
+        </div>
+        <div class="settings-section about-row">
+          <div class="about-links">
+            <a href="https://github.com/your-repo" target="_blank" class="about-link">GitHub</a>
+            <a href="https://github.com/your-repo/issues" target="_blank" class="about-link">Report Issue</a>
+            <a href="https://github.com/your-repo/blob/main/PRIVACY.md" target="_blank" class="about-link">Privacy Policy</a>
+            <a href="https://chrome.google.com/webstore/detail/your-extension-id" target="_blank" class="about-link">Rate on Chrome Web Store</a>
+          </div>
+          <div class="version-info">
+            <span>MarkIt v1.0.0</span>
+            <span class="copyright">© 2024 Your Name</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button id="closeSettingsBtn" class="modal-btn modal-btn-full">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast/Snackbar -->
+  <div id="toast" class="toast" style="display:none;"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 

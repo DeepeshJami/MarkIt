@@ -1,0 +1,57 @@
+{
+  "name": "MarkIt",
+  "description": "Highlight the Web. Keep What Matters. A powerful text highlighter that works across all websites, including SPAs and dynamic content. Your highlights sync across devices and persist even after page reloads.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "MarkIt",
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "32": "assets/icons/icon32.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "commands": {
+    "highlight-selection": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H"
+      },
+      "description": "Highlight selected text with MarkIt"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["contentScript.bundle.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png",
+    "256": "assets/icons/icon256.png"
+  },
+  "author": "Your Name",
+  "homepage_url": "https://github.com/your-repo",
+  "minimum_chrome_version": "88",
+  "offline_enabled": true,
+  "incognito": "split"
+} 

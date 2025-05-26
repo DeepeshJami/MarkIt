@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 14,
+    "failed": 1,
+    "successRate": "93.33%"
+  },
+  "details": [
+    {
+      "name": "Single line highlight",
+      "category": "basicHighlighting",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Multi-line highlight",
+      "category": "basicHighlighting",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Overlapping highlights",
+      "category": "basicHighlighting",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Nested elements",
+      "category": "complexDOM",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Dynamic content",
+      "category": "complexDOM",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Shadow DOM",
+      "category": "complexDOM",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Sync storage",
+      "category": "storageTests",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Local storage fallback",
+      "category": "storageTests",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Storage quota",
+      "category": "storageTests",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "React app navigation",
+      "category": "spaTests",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Vue app navigation",
+      "category": "spaTests",
+      "status": "FAILED",
+      "message": "Simulated test failure"
+    },
+    {
+      "name": "Angular app navigation",
+      "category": "spaTests",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Iframe content",
+      "category": "edgeCases",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Content editable",
+      "category": "edgeCases",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    },
+    {
+      "name": "Restricted pages",
+      "category": "edgeCases",
+      "status": "PASSED",
+      "message": "Test completed successfully"
+    }
+  ]
+}
