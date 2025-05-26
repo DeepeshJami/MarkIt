@@ -179,10 +179,59 @@ input:checked + .slider:before {
   color: #222;
 }
 .empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
   text-align: center;
-  padding: 40px 0 0 0;
-  color: #b7b7b7;
-  font-size: 15px;
+  color: #666;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin: 1rem;
+  border: 1px dashed #ffe066;
+}
+
+.empty-state-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.8;
+  color: #ffd700;
+}
+
+.empty-state-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.empty-state-hint {
+  font-size: 0.9rem;
+  color: #666;
+  opacity: 0.8;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.modal-warning {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: #fff5f5;
+  border-radius: 6px;
+  border: 1px solid #ffcdd2;
+}
+
+.settings-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
 }
 
 /* Footer */

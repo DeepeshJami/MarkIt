@@ -1,62 +1,115 @@
 # MarkIt Privacy Policy
 
-Last updated: [Current Date]
+**Last Updated: May 26, 2024**
 
-## Overview
+## Introduction
 
-MarkIt is a Chrome extension that allows users to highlight text on web pages. This privacy policy explains how we handle your data.
+MarkIt ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome extension. By using MarkIt, you agree to the collection and use of information in accordance with this policy.
 
-## Data Collection and Usage
+## Information We Collect
 
-### What We Collect
+### User Data
+- **Highlighted Text**: We store the text you choose to highlight on webpages.
+- **Page URLs**: We store the URLs of pages where you create highlights.
+- **Highlight Metadata**: This includes timestamps, colors, and positions of your highlights.
 
-1. **Highlight Data**
-   - Text selections you make on web pages
-   - URLs of pages where highlights are made
-   - Timestamps of when highlights are created
+### Technical Data
+- **Browser Information**: Basic browser type and version.
+- **Extension Usage**: Information about how you interact with the extension.
+- **Error Reports**: Technical information when errors occur (if you choose to report them).
 
-2. **Storage**
-   - All highlight data is stored locally in your browser using Chrome's storage API
-   - Data is synced across your devices using Chrome's sync storage (if enabled)
-   - No data is sent to external servers
+## How We Use Your Information
 
-### How We Use Your Data
+1. **Core Functionality**
+   - To save and restore your highlights
+   - To sync highlights across your devices
+   - To provide search functionality within your highlights
 
-- To display your highlights when you revisit pages
-- To sync highlights across your devices (if sync is enabled)
-- To provide export/import functionality for your highlights
+2. **Improvement and Maintenance**
+   - To fix bugs and improve performance
+   - To develop new features
+   - To ensure the extension works properly
 
-## Data Security
+3. **User Experience**
+   - To remember your preferences
+   - To provide personalized features
+   - To maintain your highlight settings
 
-- All data is stored locally in your browser
-- No data is transmitted to external servers
-- We use Chrome's built-in security features for data storage
+## Data Storage and Security
 
-## Third-Party Services
+### Local Storage
+- Your highlights are primarily stored locally on your device
+- We use Chrome's storage API for secure data management
+- Data is encrypted during transmission
 
-MarkIt does not use any third-party services or analytics tools.
+### Cloud Sync
+- When enabled, highlights sync across your devices using Chrome's sync API
+- Sync data is encrypted and protected by Google's security measures
+- You can disable sync at any time through Chrome settings
 
-## Your Rights
+## Data Sharing and Third Parties
 
-You can:
-- Delete all your highlights at any time
-- Export your highlights as JSON
-- Disable sync to prevent cross-device data sharing
-- Uninstall the extension to remove all stored data
+We do not:
+- Sell your data to third parties
+- Share your highlights with other users
+- Use your data for advertising purposes
+- Track your browsing history beyond your highlights
+
+## Your Rights and Choices
+
+You have the right to:
+1. Access your stored highlights
+2. Export your data (available in extension settings)
+3. Delete your data
+4. Disable sync features
+5. Uninstall the extension at any time
+
+## Data Retention
+
+- Your highlights are stored until you delete them
+- When you uninstall the extension, you can choose to export your data
+- Deleted highlights cannot be recovered
+
+## Children's Privacy
+
+MarkIt is not intended for use by children under 13. We do not knowingly collect personal information from children under 13.
 
 ## Changes to This Policy
 
-We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.
+We may update this Privacy Policy from time to time. We will notify you of any changes by:
+- Posting the new Privacy Policy on this page
+- Updating the "Last Updated" date
+- Notifying you through the extension if significant changes occur
 
-## Contact
+## Contact Information
 
-If you have any questions about this privacy policy, please:
-1. Open an issue on our [GitHub repository](https://github.com/your-repo/issues)
-2. Contact us at [your-email@domain.com]
+If you have any questions about this Privacy Policy, please contact us:
+- Email: deepesh.jami@gmail.com
+- GitHub: [github.com/deepeshjami/markit](https://github.com/deepeshjami/markit)
+- Issues: [github.com/deepeshjami/markit/issues](https://github.com/deepeshjami/markit/issues)
 
 ## Compliance
 
 This extension complies with:
-- Chrome Web Store's Developer Program Policies
+- Chrome Web Store Developer Program Policies
 - General Data Protection Regulation (GDPR)
-- California Consumer Privacy Act (CCPA) 
+- California Consumer Privacy Act (CCPA)
+- Children's Online Privacy Protection Act (COPPA)
+
+## Additional Information
+
+### Technical Implementation
+- All data is stored using Chrome's secure storage APIs
+- No external servers are used for data storage
+- All data processing occurs locally on your device
+- Sync is handled through Chrome's built-in sync system
+
+### Security Measures
+- Data is encrypted during transmission
+- No sensitive information is collected
+- Regular security audits are performed
+- Secure coding practices are followed
+
+---
+
+*This Privacy Policy was last updated on May 26, 2024. By using MarkIt, you acknowledge that you have read and understood this Privacy Policy.* 
