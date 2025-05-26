@@ -1,10 +1,29 @@
 {
-  "name": "markit-extension",
-  "version": "0.1.0",
-  "description": "Persistent text highlighter Chrome extension (MarkIt)",
-  "author": "",
+  "name": "markit",
+  "version": "1.0.0",
+  "description": "Your personal web highlighter - Save and sync your important text across devices",
+  "author": {
+    "name": "Deepesh Jami",
+    "email": "deepesh.jami@gmail.com",
+    "url": "https://github.com/deepeshjami"
+  },
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepeshjami/markit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepeshjami/markit/issues"
+  },
+  "homepage": "https://github.com/deepeshjami/markit#readme",
+  "keywords": [
+    "chrome-extension",
+    "text-highlighter",
+    "web-highlighter",
+    "markit",
+    "deepesh-jami"
+  ],
   "scripts": {
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --max-warnings=0",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\""

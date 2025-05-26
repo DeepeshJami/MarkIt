@@ -24,8 +24,8 @@ Pull requests are the best way to propose changes to the codebase. We actively w
 ## Any contributions you make will be under the MIT Software License
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using GitHub's [issue tracker](https://github.com/your-username/markit/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/your-username/markit/issues/new); it's that easy!
+## Report bugs using GitHub's [issue tracker](https://github.com/deepeshjami/markit/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/deepeshjami/markit/issues/new); it's that easy!
 
 ## Write bug reports with detail, background, and sample code
 
@@ -45,4 +45,7 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 * You can try running `npm run lint` for style unification
 
 ## License
-By contributing, you agree that your contributions will be licensed under its MIT License. 
+By contributing, you agree that your contributions will be licensed under its MIT License.
+
+## Contact
+For any questions or concerns, please contact [Deepesh Jami](https://github.com/deepeshjami). 

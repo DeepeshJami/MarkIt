@@ -1,8 +1,11 @@
-# MarkIt – Persistent Text Highlighter Extension
+# MarkIt by Deepesh Jami
 
-> **Tagline:** *"Highlight the Web. Keep What Matters."*
+> "Highlight the Web. Keep What Matters."
 
-MarkIt is a Chrome extension that lets you highlight text on almost any webpage and keep those highlights synced across sessions **and devices**. It is designed to be robust, accessible, and work on a wide variety of websites—including SPAs, iframes, and shadow DOMs.
+A powerful Chrome extension that allows you to highlight text on any webpage and persist those highlights across sessions and devices. Built with ❤️ by Deepesh Jami.
+
+## About the Creator
+Hi! I'm Deepesh Jami, a passionate developer who created MarkIt to solve the problem of losing important text highlights across browsing sessions. This extension is my solution to help you keep track of important information on the web.
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/your-extension-id?label=Chrome%20Web%20Store)](https://chrome.google.com/webstore/detail/your-extension-id)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -125,16 +128,22 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📞 Support & Contact
+
+- [GitHub Issues](https://github.com/deepeshjami/markit/issues)
+- [Email Me](mailto:deepeshjami@gmail.com)
+- [LinkedIn](https://linkedin.com/in/deepeshjami)
+- [Twitter](https://twitter.com/deepeshjami)
+
 ## 🙏 Acknowledgments
 
+Special thanks to:
+- The open-source community for their invaluable tools and libraries
+- Early users who provided feedback and suggestions
+- Friends and family who tested the extension
 - [Chrome Extension Documentation](https://developer.chrome.com/docs/extensions/)
 - [Chrome Storage API](https://developer.chrome.com/docs/extensions/reference/storage/)
 - [Chrome Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)
-
-## 📞 Support
-
-- [GitHub Issues](https://github.com/your-username/markit/issues)
-- [Chrome Web Store Support](https://chrome.google.com/webstore/detail/your-extension-id/support)
 
 ## 🔄 Updates
 

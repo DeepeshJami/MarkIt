@@ -1,8 +1,10 @@
 {
-  "name": "MarkIt",
-  "description": "Highlight the Web. Keep What Matters.",
-  "version": "0.1.0",
+  "name": "MarkIt by Deepesh Jami",
+  "description": "Your personal web highlighter - Save and sync your important text across devices",
+  "version": "1.0.0",
   "manifest_version": 3,
+  "author": "Deepesh Jami",
+  "homepage_url": "https://github.com/deepeshjami/markit",
   "action": {
     "default_popup": "src/popup.html",
     "default_title": "MarkIt"
